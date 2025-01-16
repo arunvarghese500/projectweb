@@ -149,7 +149,7 @@ for ticker_name, df in data.items():
 st.title("Bank Stock Analysis Dashboard")
 
 # Define the path to the video folder
-video_folder = r'C:\Users\divya.pasupuleti\Downloads\website\videos'
+video_folder = r'videos'
 
 # Function to list and display videos from the folder
 def play_videos_from_folder(folder_path):
