@@ -338,14 +338,130 @@ def main():
     elif choice == "Tools for Goal Creation":
         st.subheader('Tools for Creating CSR Goals')
         st.write("""
-            Learn about different tools and frameworks to create and track CSR goals effectively. 
-            These tools will guide organizations in integrating sustainability into their operations.
+Overview:
+EcoVadis provides a collaborative platform for assessing and monitoring CSR and sustainability performance. It helps organizations evaluate their environmental, labor, ethics, and sustainable procurement practices.
+
+Key Features:
+
+CSR and sustainability scorecards.
+Benchmarking against industry peers.
+Actionable feedback and improvement plans.
+Integration with procurement processes.
+Example Product:
+
+EcoVadis Sustainability Ratings: A product designed to measure and score a company’s sustainability performance across various dimensions.
+Link: EcoVadis Sustainability Ratings
+
+2. GRI (Global Reporting Initiative)
+Overview:
+GRI offers widely recognized standards for sustainability reporting, enabling businesses to communicate their impact on critical issues such as climate change, human rights, and corruption.
+
+Key Features:
+
+Structured sustainability reporting framework.
+Guidelines for integrating SDG targets into CSR goals.
+Sector-specific standards for financial institutions.
+Example Product:
+
+GRI Standards: A comprehensive set of standards to help organizations prepare impactful sustainability reports.
+Link: GRI Standards
+
+3. Sustainalytics
+Overview:
+Sustainalytics is a global leader in ESG (Environmental, Social, and Governance) and corporate governance research, ratings, and analytics. It supports investors and companies in integrating sustainability into their operations.
+
+Key Features:
+
+ESG risk ratings for banks and financial institutions.
+Tailored benchmarks for CSR strategies.
+Industry-specific insights and tools.
+Example Product:
+
+ESG Risk Ratings: Designed to assess and measure a company’s exposure to ESG risks and its management.
+Link: Sustainalytics ESG Ratings
+
+4. CSRHub
+Overview:
+CSRHub provides access to ESG and sustainability data for thousands of companies worldwide. It aggregates data from multiple sources to offer a complete view of CSR performance.
+
+Key Features:
+
+Integration with CSR metrics like GRI, CDP, and UN SDGs.
+Dashboard for comparing and benchmarking sustainability scores.
+Industry-specific CSR insights.
+Example Product:
+
+CSRHub Dashboard: A platform to track and benchmark CSR metrics across industries.
+Link: CSRHub Dashboard
+
+5. ISO 26000
+Overview:
+ISO 26000 is an international standard providing guidance on social responsibility. It is a practical tool to help businesses and organizations operate in an ethical and sustainable manner.
+
+Key Features:
+
+Framework for integrating CSR across all business levels.
+Guidelines for creating responsible policies and practices.
+Focus on seven core subjects, including environment, labor practices, and consumer issues.
+Example Product:
+
+ISO 26000 Guidelines: A resource for businesses to design and implement CSR strategies aligned with international best practices.
+Link: ISO 26000
+
+6. CDP (Carbon Disclosure Project)
+Overview:
+CDP helps companies disclose and manage their environmental impact, focusing on carbon emissions, water security, and deforestation.
+
+Key Features:
+
+Tools to calculate and reduce carbon footprint.
+Reporting framework aligned with global climate goals.
+Sector-specific initiatives for banking and finance.
+Example Product:
+
+CDP Climate Change Program: Supports organizations in disclosing and managing their climate-related risks and opportunities.
+Link: CDP Climate Change Program
+
+7. B Impact Assessment (B Lab)
+Overview:
+B Impact Assessment is a free tool to help businesses measure their impact on workers, communities, customers, and the environment. It is commonly used by companies pursuing B Corp Certification.
+
+Key Features:
+
+Scorecard for measuring CSR and sustainability performance.
+Guidance on aligning business goals with CSR initiatives.
+Focus on stakeholder impact and transparency.
+Example Product:
+
+B Impact Assessment Tool: A platform for evaluating and improving social and environmental performance.
+Link: B Impact Assessment Tool
+
+8. Tableau Public
+Overview:
+Tableau Public is a data visualization tool that helps organizations create compelling dashboards to track and communicate CSR performance.
+
+Key Features:
+
+Interactive dashboards for CSR tracking.
+Integration with data sources like GRI reports and ESG metrics.
+User-friendly tools for presenting sustainability data.
+Example Product:
+
+Tableau CSR Dashboards: A solution for visualizing and sharing CSR progress with stakeholders.
+Link: Tableau Public
         """)
     
     elif choice == "Educational Materials":
         st.subheader('Educational Resources on CSR')
         st.write("""
-            Access various educational materials, such as articles, research papers, and reports, that can enhance your understanding of CSR and sustainable development.
+           1. Articles and Blogs
+Overview of CSR Concepts: Learn the fundamentals of CSR, including its history, principles, and applications across industries.
+Case Studies: Explore real-world CSR implementations, challenges, and success stories in banking and other sectors.
+Emerging Trends: Stay updated on modern CSR practices, such as green financing, ESG investing, and climate action.
+Example Articles:
+
+“What is Corporate Social Responsibility?” by Investopedia: Read here
+“How CSR Is Shaping the Banking Industry” by Harvard Business Review: Read here
         """)
 
 # Run the Streamlit app
